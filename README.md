@@ -27,7 +27,7 @@ that captures axial (row/column) context contrast in Hi-C patches.
 ## Installation
 
 AxialTAD requires Python 3.11 and TensorFlow 2.19. A GPU is recommended for
-training (tested on NVIDIA A6000); inference runs on CPU but slowly.
+training; inference runs on CPU but slowly.
 
 ```bash
 git clone https://github.com/Biomedical-Data-Science-Laboratory/AxialTAD.git
