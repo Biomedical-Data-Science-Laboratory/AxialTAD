@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use AxialTAD in your research, please cite the following manuscript."
+title: "AxialTAD: An Axial Contrast Inductive Bias for Parameter-Efficient TAD Boundary Prediction from Hi-C"
+abstract: "AxialTAD is a deep learning method for TAD boundary prediction from Hi-C contact matrices, leveraging an Axial Contrast Module (ACM) as an architectural inductive bias for parameter efficiency."
+authors:
+  - family-names: Choi
+    given-names: Woo-Young
+    affiliation: "Department of Bioinformatics & Life Science, Soongsil University"
+    # email: <TODO>
+    # orcid: <TODO>
+  - family-names: Rhee
+    given-names: Je-Keun
+    affiliation: "Department of Bioinformatics & Life Science, Soongsil University; AI-Bio Convergence Research Institute, Soongsil University"
+    # email: <TODO>
+    # orcid: <TODO>
+contact:
+  - family-names: Rhee
+    given-names: Je-Keun
+    affiliation: "Department of Bioinformatics & Life Science, Soongsil University; AI-Bio Convergence Research Institute, Soongsil University"
+    # email: <TODO>
+version: 0.1.0
+date-released: 2026-05-14
+license: MIT
+repository-code: "https://github.com/Biomedical-Data-Science-Laboratory/AxialTAD"
+type: software
+keywords:
+  - Hi-C
+  - topologically associating domains
+  - deep learning
+  - axial attention
+  - genome architecture
+preferred-citation:
+  type: article
+  title: "AxialTAD: An Axial Contrast Inductive Bias for Parameter-Efficient TAD Boundary Prediction from Hi-C"
+  authors:
+    - family-names: Choi
+      given-names: Woo-Young
+      affiliation: "Department of Bioinformatics & Life Science, Soongsil University"
+    - family-names: Rhee
+      given-names: Je-Keun
+      affiliation: "Department of Bioinformatics & Life Science, Soongsil University; AI-Bio Convergence Research Institute, Soongsil University"
+  year: 2026
+  status: "in preparation"
+  # journal: "Briefings in Bioinformatics"   # uncomment after acceptance
+  # doi: <TODO>

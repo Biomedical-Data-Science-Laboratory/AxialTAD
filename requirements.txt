@@ -1,0 +1,9 @@
+# AxialTAD runtime dependencies
+# Tested on Python 3.11.
+
+tensorflow==2.19.*    # ACM model + training/inference (axialtad/models.py, scripts/train.py, scripts/predict.py)
+numpy                 # array ops throughout the package
+pandas                # OnTAD / HiCExplorer reference parsing (scripts/generate_samples.py)
+scipy                 # Wilcoxon rank-sum post-hoc filter (scripts/wilcoxon_filter.py)
+hic-straw             # .hic file → KR-balanced matrix (scripts/extract_kr_matrix.py)
+tqdm                  # inference progress bar (scripts/predict.py)
